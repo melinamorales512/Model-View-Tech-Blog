@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(105, 122, 74);
+    background-color: rgb(84, 74, 122);
 }
 
 .navTitle {
@@ -14,7 +14,7 @@ body {
 
 .blogTitle {
   text-decoration: none;
-  color: darkkhaki;
+  color: rgb(107, 189, 107);
 }
 
 .blogDesc {
@@ -44,7 +44,7 @@ body {
 .blogBoxCont {
 	margin-top: 10px;
   border-style: solid;
-  background-color: rgb(113, 143, 62);
+  background-color: rgb(62, 80, 143);
 }
 
 .formCont {
