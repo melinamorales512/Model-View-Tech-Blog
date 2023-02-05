@@ -4,7 +4,7 @@ const {
     Post,
     User,
     Comment
-} = require('../models');
+} = require('./api');
 const withAuth = require('../utils/auth');
 
 

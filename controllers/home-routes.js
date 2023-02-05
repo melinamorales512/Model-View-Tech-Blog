@@ -4,7 +4,7 @@ const {
     User,
     Post,
     Comment
-} = require('../models');
+} = require('./api');
 
 
 router.get('/', (req, res) => {
@@ -114,7 +114,7 @@ router.get('/signup', (req, res) => {
 
 router.get('*', (req, res) => {
     res.status(404).send("Can't go there!");
-    // res.redirect('/');
+
 })
 
 
