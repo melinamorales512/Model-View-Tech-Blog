@@ -1,24 +1,22 @@
-<section class="sign-in-page">
-    <div class="form-heading">
-        <h1>Sign Up</h1>
-    </div>
-    <div class="form-section">
-        <form class="signup-form">
-            <div>
-                <label for="username-signup">Select a Username</label>
-                <input type="text" class="entry-field" id="username-signup" />
+<div class="row flex-column justify-center">
+    <div class="col-md-6 posts flex-column justify-center align-center">
+        <h2>Signup</h2>
+        <a href="/login" class="form-link">Already Registerd? Log In Here</a>
+        <form class="form signup-form">
+            <div class="form-group">
+                <label for="name-signup">Username:</label>
+                <input class="form-input" type="text" id="username-signup" />
             </div>
-            <div>
-                <label for="password-signup">Select a password</label>
-                <input type="password" class="entry-field" id="password-signup" />
+            <div class="form-group">
+                <label for="password-signup">Password:</label>
+                <input class="form-input" type="password" id="password-signup" />
             </div>
-            <div>
-                <button type="submit" class="login-signup-btn">Sign Up!</button>
+            <div class="form-group text-center">
+                <p id="bad-login">Your password must be at least 8 characters long, please try again.</p>
+                <button type="submit">Submit</button>
             </div>
         </form>
     </div>
+</div>
 
-    <a href="/login" class="login-link">log in instead</a>
-</section>
-
-<script src="/javascript/signup.js"></script>
+<script src="./js/signup.js"></script>

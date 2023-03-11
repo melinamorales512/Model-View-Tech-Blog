@@ -1,7 +1,18 @@
-<ul class="post-list">
-    {{#each posts as |post|}}
-    <li>
-        {{> post-info post }}
-    </li>
-    {{/each}}
-</ul>
+<div class="homepage">
+{{#each posts as |post| }}
+<div class="posts front-posts">
+    <header class="post-title">
+        <a href="/post/{{post.id}}" class="post-link">{{post.title}}</a>
+        <span class="posted-by">
+            Posted by: {{post.user.name}} on
+            {{format_date post.date_created}}
+        </span>
+    </header>
+    <p class="post-content">
+        {{post.content}}
+    </p>
+</div>
+{{/each}}
+
+<button class="create-new-btn" onclick="window.location.href='/add';">Add A Post</button>
+</div>
