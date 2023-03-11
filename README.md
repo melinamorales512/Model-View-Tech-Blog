@@ -19,6 +19,27 @@ This app utilizes many different files, database storage, and technologies to cr
 ## Installation
 
 There are no files to download for this project.
+
+The packages required to run are:
+
+-bcrypt
+
+-connect-session-sequelize
+
+-dotenv
+
+-express
+
+-express-handlebars
+
+-express-session
+
+-mysql2
+
+-sequelize
+
+A database will need to be created first then seeded wih data.
+
 ## Usage
 
 ## Contributing
